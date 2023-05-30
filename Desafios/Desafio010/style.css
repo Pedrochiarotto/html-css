@@ -54,8 +54,6 @@ header > p {
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 nav {
-    max-width: 1000px;
-    min-width: 300px;
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Righteous', cursive;
     text-align: left;
