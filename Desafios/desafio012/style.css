@@ -4,25 +4,27 @@
 
 *{
     margin: 0;
+    padding: 0px;
 }
 
 body{
     background-color: white;
+    min-height: 100%;
 }
 
 header{
     font-family: 'Passion One', cursive;
-    max-height: 1000px;
-    min-height: 320px;
     color: white;
     background-color: black;
+    padding-bottom: 60px;
+    padding-top: 60px ;
 }
 
 header > h1{
-
-    font-size: 136px;
+    font-variant: small-caps;
+    font-size: 10vw;
    text-align: center;
-   padding: 50px 50px 0px 50px;
+   
 }
 
 header> p {
@@ -30,6 +32,7 @@ header> p {
     padding: 0;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 header > p > strong> a {
@@ -43,17 +46,25 @@ header > p >strong> a:hover{
 
 main{
   
-    font-size: 47px;
-    
+    font-size: 3vw;
     font-family: 'Sriracha', cursive;
     background-color: white;
  
 }
 
 section{
-    padding: 100px 0px;
+    padding-top: 10vh;
+    padding-bottom:10vh ;
+    line-height: 2em;
+   
   
     
+}
+
+section >p{
+    padding-bottom: 1em;
+    padding-left: 30px;
+   
 }
 
 article#joaninha{
@@ -62,14 +73,16 @@ article#joaninha{
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     background-position: center,center;
+    background-size: cover;
+    
 
 }
 
 article#joaninha > p {
-    width: 600px;
+    display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.397);
-    padding: 5px;
+    
  
     
 }
@@ -82,10 +95,11 @@ article#text{
 }
 
 article#text > p {
-    width: 600px;
+    display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.397);
-    padding: 5px;
+   
+    background-size: cover;
 }
 
 footer{
